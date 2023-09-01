@@ -1,0 +1,122 @@
+#Hero{
+    color: white;
+    height: 75vh;
+    background-image: url(./img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg) ;
+    background-size: cover;
+}
+
+.hero h1{
+    font-size:70px
+}
+
+.about img{
+    border-radius: 50%;
+    border: 10px solid #D8D9DA;
+}
+
+.description > p{
+    font-size: 30px;
+}
+
+#Resume{
+    background-color: #F6F6F6;
+}
+
+#Contact{
+    background-color: #F6F6F6;
+    height: 55vh;
+
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 100px 250px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.section-title h2{
+    margin-top: 10px;
+    ;
+}
+
+.info1{
+    grid-area: 2 / 1 / 3 / 2; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color:#212529;
+}
+
+.footer-text{
+    margin-top: 10px;
+    color:white
+}
+
+.send button{
+    background-color: #224870; 
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media (max-width: 680px) {
+    #Hero{
+        height: 50vh;
+    }
+    
+    #Contact{
+        height: 85vh;
+    }
+    
+    .contact-info{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 100px 250px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .hero h1{
+        font-size:80px
+    }
+}
+
+@media (min-width: 375px){
+    #Hero{
+        height: 60vh;
+    }
+    
+    #Contact{
+        height: 1000px;
+    }
+    
+    .contact-info{
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 100px 250px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .hero h1{
+        font-size:80px
+    }
+}
+
+
+
+
+
+
